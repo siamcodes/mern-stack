@@ -27,9 +27,6 @@ const HeaderComponent = () => {
                         <LinkContainer to="/admin/orders">
                             <Nav.Link>Admin</Nav.Link>
                         </LinkContainer>
-                        <Nav.Link href="#pricing">
-                            Price
-                        </Nav.Link>
                         <NavDropdown title="Somkiat Jaidee" id="collasible-nav-dropdown">
                             <NavDropdown.Item evenKey="/user/my-orders" as={Link} to="/user/my-orders"> My orders </NavDropdown.Item>
                             <NavDropdown.Item evenKey="/user" as={Link} to="/user"> My profile </NavDropdown.Item>

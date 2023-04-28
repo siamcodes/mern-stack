@@ -41,6 +41,7 @@ const AdminChatRoomComponent = () => {
 
         </Toast.Body>
       </Toast>
+      
       <Toast show={toast2} onClose={close2} className="ms-4 mb-5">
         <Toast.Header>
           <strong className="me-auto">Chat with John Doe2</strong>
